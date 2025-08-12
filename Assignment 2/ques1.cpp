@@ -22,10 +22,11 @@ int main(){
     cin >> ele;
     int start, mid, end;
     start = 0, end = n;
-    mid = (start + end)/2;
+   
     int flag = -1;
     while(start <= end)
     {
+        mid = (start + end)/2;
         if(arr[mid] == ele)
         {
             flag = mid;
