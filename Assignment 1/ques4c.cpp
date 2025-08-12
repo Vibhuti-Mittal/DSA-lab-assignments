@@ -28,7 +28,7 @@ int main()
     {
         for(j=0; j<c; j++)
         {
-           while(i>j)
+           if(i>j)
            {
             int temp;
             temp = arr[i][j];
