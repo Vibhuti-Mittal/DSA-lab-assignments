@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int i,j,k=1;
-    int a1[20][3], a2[20][3], sum[20][3];
+    int a1[20][3], a2[20][3], sum[40][3];
     int t1,t2; 
     cout << "Enter the number of rows, columns and non-zero terms of matrix 1: " << endl;
     cin >> a1[0][0] >> a1[0][1] >> t1;
