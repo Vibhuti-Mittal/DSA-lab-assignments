@@ -122,12 +122,7 @@ cout << "5. Delete from beginning" << endl;
 cout << "6. Delete from end" << endl;
 cout << "7. Delete from position" << endl;
 cout << "8.Return position" << endl;
-Node* n1 = new Node(1);
-Node* n2 = new Node(2, n1);
-Node* n3 = new Node(3, n2);
-Node* n4 = new Node(4, n3);
-Node* n5 = new Node(5, n4);
-Node* head = n5;
+c
 int choice;
 int value , x;
 cout << "Enter choice: " << endl;

@@ -1,0 +1,1 @@
+ Node* n0 = new Node(0);
