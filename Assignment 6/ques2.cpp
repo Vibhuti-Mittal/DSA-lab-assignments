@@ -12,11 +12,10 @@ public:
     }
 };
 
-// Function to insert node at end of Circular Linked List
 Node* insertAtEndCLL(Node* head, int val) {
     Node* newNode = new Node(val);
     if (head == NULL) {
-        newNode->next = newNode; // circular link to itself
+        newNode->next = newNode; 
         head = newNode;
         return head;
     }
@@ -29,7 +28,7 @@ Node* insertAtEndCLL(Node* head, int val) {
     return head;
 }
 
-// Function to display all nodes (repeating head value at end)
+
 void displayCLLWithHeadRepeat(Node* head) {
     if (head == NULL) {
         cout << "Circular Linked List is empty." << endl;
@@ -44,7 +43,7 @@ void displayCLLWithHeadRepeat(Node* head) {
         temp = temp->next;
     } while (temp != head);
 
-    cout << head->data << endl; // repeat head node value at end
+    cout << head->data << endl; 
 }
 
 int main() {
